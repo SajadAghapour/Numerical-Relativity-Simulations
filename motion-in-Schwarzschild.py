@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # --- Parameters (G=c=1) ---
 M = 1.0                # black hole mass
 r0 = 10.0 * M          # initial radius
-vr0 = 0.0              # initial radial velocity dr/dτ
+vr0 = 0.1              # initial radial velocity dr/dτ
 L  = 4.0 * M           # choose some angular momentum
 
 def f(r):
